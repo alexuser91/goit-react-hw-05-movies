@@ -1,0 +1,37 @@
+.FormContainer {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.Form {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  background-color: #dcdcdc;
+  border-radius: 8px;
+  padding: 10px 15px;
+  margin: 30px 0;
+  box-shadow: 0 8px 8px rgba(100, 100, 100, 0.6);
+}
+
+.InputStyled {
+  flex: 1;
+  border: 2px solid #333;
+  background-color: #fff;
+  outline: none;
+  font-size: 18px;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.ButtonStyled {
+  border: none;
+  background-color: #4caf50;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+}

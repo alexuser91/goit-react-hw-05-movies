@@ -1,0 +1,20 @@
+.ListActors {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 10px;
+  list-style-type: none;
+}
+
+.Actor {
+  flex-basis: calc((100% - 40px) / 3);
+  background-color: #f0f0f0;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .Actor {
+    flex-basis: calc((100% - 120px) / 4);
+    margin-bottom: 15px;
+  }
+}
